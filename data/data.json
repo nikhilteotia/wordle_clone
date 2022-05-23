@@ -1,0 +1,58 @@
+
+{
+    
+    "solutions":[
+        {"word" : "which" , "id" : 1},
+        {"word" : "there" , "id" : 2},
+        {"word" : "their" , "id" : 3},
+        {"word" : "about" , "id" : 4},
+        {"word" : "would" , "id" : 5},
+        {"word" : "these" , "id" : 6},
+        {"word" : "other" , "id" : 7},
+        {"word" : "words" , "id" : 8},
+        {"word" : "could" , "id" : 9},
+        {"word" : "write" , "id" : 10},
+        {"word" : "first" , "id" : 11},
+        {"word" : "after" , "id" : 12},
+        {"word" : "where" , "id" : 13},
+        {"word" : "right" , "id" : 14},
+        {"word" : "think" , "id" : 15},
+        {"word" : "three" , "id" : 16},
+        {"word" : "years" , "id" : 17},
+        {"word" : "place" , "id" : 18},
+        {"word" : "sound" , "id" : 19},
+        {"word" : "great" , "id" : 20}
+
+    ],
+    "bommer": [
+        {"key": "a"},
+        {"key": "b"},
+        {"key": "c"},
+        {"key": "d"},
+        {"key": "e"},
+        {"key": "f"},
+        {"key": "g"},
+        {"key": "h"},
+        {"key": "i"},
+        {"key": "j"},
+        {"key": "k"},
+        {"key": "l"},
+        {"key": "m"},
+        {"key": "n"},
+        {"key": "o"},
+        {"key": "p"},
+        {"key": "q"},
+        {"key": "r"},
+        {"key": "s"},
+        {"key": "t"},
+        {"key": "u"},
+        {"key": "v"},
+        {"key": "w"},
+        {"key": "x"},
+        {"key": "y"},
+        {"key": "z"},
+        {"key": "Enter"}
+      ]
+}
+
+
