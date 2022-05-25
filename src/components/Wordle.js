@@ -50,7 +50,7 @@ export default function Wordle({ solution }) {
       
       {/* pass currentGuess, gussess, and turn as props to Grid component */}
       <Grid currentGuess={currentGuess} guesses={gussess} turn={turn} />
-      <Keypad usedKeys={usedKeys} handleKeyup={handleKeyup} isCorrect={isCorrect} setShowModel={setShowModel} />
+      <Keypad usedKeys={usedKeys} handleKeyup={handleKeyup} isCorrect={isCorrect} setShowModel={setShowModel} turn={turn} setTimeout={setTimeout}/>
       {showModel && <Model isCorrect={isCorrect} turn={turn} solution={solution}/>}
     </div>
     
