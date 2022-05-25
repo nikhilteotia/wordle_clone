@@ -22,9 +22,12 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Wordle</h1>
+      <h1 className="heading">Wordle</h1>
       {/* wordle component will only word id solution : true .. also passing solution to an prop called solution */}
+      
       { solution && <Wordle solution={solution} />}
+      
+     
     </div>
   );
 }

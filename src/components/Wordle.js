@@ -13,19 +13,27 @@ export default function Wordle({ solution }) {
     //adding event listner
     useEffect( () => {
        window.addEventListener('keyup', handleKeyup);
-
+      
+       
        if(isCorrect){
         setTimeout(() => setShowModel(true), 2000);
         window.removeEventListener('keyup', handleKeyup);
+        
         }
 
         if(turn > 5){
           setTimeout(() => setShowModel(true), 2000);
           window.removeEventListener('keyup', handleKeyup);
+          
         }
 
-       return () => window.removeEventListener('keyup', handleKeyup);
+       return () => {
+        window.removeEventListener('keyup', handleKeyup);
+        
+       }
     } , [handleKeyup, isCorrect]);
+
+    
 
     // useEffect(() => {
     //      console.log('g :',gussess)
@@ -42,7 +50,7 @@ export default function Wordle({ solution }) {
       
       {/* pass currentGuess, gussess, and turn as props to Grid component */}
       <Grid currentGuess={currentGuess} guesses={gussess} turn={turn} />
-      <Keypad usedKeys={usedKeys} />
+      <Keypad usedKeys={usedKeys} handleKeyup={handleKeyup} isCorrect={isCorrect} setShowModel={setShowModel} />
       {showModel && <Model isCorrect={isCorrect} turn={turn} solution={solution}/>}
     </div>
     
