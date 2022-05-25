@@ -7,7 +7,7 @@ function App() {
   const [solution, setSolution] = useState(null);
  
   useEffect( ()=> {
-    fetch('http://localhost:3001/solutions')
+    fetch('https://nikhil-wordle-clone-api.herokuapp.com/solutions')
     .then(res => res.json())
     .then(json => {
       //random word  : var : 0-19 range

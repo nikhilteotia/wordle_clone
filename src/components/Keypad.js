@@ -4,7 +4,7 @@ export default function Keypad({ usedKeys }) {
   const [letters, setLetters] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:3001/bommer')
+    fetch('https://nikhil-wordle-clone-api.herokuapp.com/bommer')
       .then(res => res.json())
       .then(json => {
         setLetters(json)
