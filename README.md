@@ -1,15 +1,16 @@
-# How to run the project on machine
 
-# Prerequisite Node.js should be installed : https://phoenixnap.com/kb/install-node-js-npm-on-windows
+# Prerequisite Node.js should be installed 
+  ### > https://phoenixnap.com/kb/install-node-js-npm-on-windows
 # Install the Dependency 
-  > npm install
+  ### > npm install
 # Run the project
-  > npm run start
+  ### > npm run start
 # wordle is Runing here
-  > http://localhost:3000/
+  ### > http://localhost:3000/
 
 # Also need to run the JSON Server
-  > json-server --port  "port number where to run" "path to json file"
-  > json-server --port 3001 data.json
+  ### > npm install --g json-server
+  ### > json-server --port  "port number where to run" "path to json file"
+  ### > json-server --port 3001 data.json
 
 # Have fun :)
